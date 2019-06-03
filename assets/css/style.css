@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.input{
+   border-radius: 5px;
+   padding: 10px;
+   color: crimson;
+   font-size: 14px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    transform: scale(1);
+    transition: 1s transform ease;
+    background-color:white;
+    border: 1px solid crimson;
+    color: crimson;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: white;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
