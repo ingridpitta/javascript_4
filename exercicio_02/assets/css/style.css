@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    /* position: absolute;
+    left: 37.5%;
+    top: 45%; */
+}
+
+button{
+    padding: 20px 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    margin: 25px auto;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1s transform ease;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+}
+
+button:focus{
+    outline: none;
+}
+
+.verde{
+    background-color:  rgb(134, 216, 134);
+}
+
+.verde:hover{
+    background-color:green;
+}
+
+.verde:active{
+    transform: scale(0.9);
+}
+
+.roxo{
+    background-color: plum;
+}
+
+.roxo:hover{
+    background-color: purple;
+}
+
+.roxo:active{
+    transform: scale(0.9);
+}
+
+
+
+.roxoFillDarkLarge{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 20px 60px;
+}
+
+.roxoFillDarkLarge:hover{
+    opacity: 0.9;
+}
+
+.roxoFillDarkLarge:active{
+    transform: scale(0.9);
+}
+
+
+
+.roxoFillLightLarge{
+    background-color: rgb(196, 158, 232);
+    border-radius: 5px;
+    padding: 20px 60px;
+}
+
+.roxoFillLightLarge:hover{
+    opacity: 0.8;
+}
+
+.roxoFillLightLarge:active{
+    transform: scale(0.9);
+}
+
+
+.roxoUnfillLightLarge{
+    background-color: none;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 20px 60px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.roxoUnfillLightLarge:hover{
+    opacity: 0.8;
+}
+
+.roxoUnfillLightLarge:active{
+    transform: scale(0.9);
+}
+
+
+
+.roxoNoBorderLarge{
+    background-color: none;
+    border: none;;
+    border-radius: 5px;
+    padding: 20px 60px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.roxoNoBorderLarge:hover{
+    opacity: 0.8;
+}
+
+.roxoNoBorderLarge:active{
+    transform: scale(0.9);
+}
