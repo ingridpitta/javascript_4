@@ -11,7 +11,7 @@ const retornaPromise = numero => {
         reject("O valor inserido não é um número!")
         }else{
         //Senão (se for realmente um número), Promise == resolve, depois de 1s chamar a const parOuImpar;
-        numeroInserido === true ? setTimeout(() => {resolve(parOuImpar(numero))}, 1000) : setTimeout(() => {resolve(parOuImpar(numero)),1000}) 
+        setTimeout(() => {resolve(parOuImpar(numero))}, 1000)
         };
     })
 };
